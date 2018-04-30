@@ -1,0 +1,7 @@
+<h1>{{greeting}}</h1>
+<button class='btn btn-primary' ng-click="getRandomNumbers()">Get Random Numbers</button>
+<p ng-show="!halted && buttonClicked">Please wait while generating primes!</p>
+<p ng-show="halted && buttonClicked">Primes generated: {{p}} and {{q}}</p>
+<p ng-show="halted && buttonClicked">Public Key: n: {{n}}, e: {{e}}</p>
+<p ng-show="halted && buttonClicked">Private key, d: {{d}}</p>
+<p ng-show="halted && error_message">{{error_message}}</p>
