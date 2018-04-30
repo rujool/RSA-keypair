@@ -1,5 +1,5 @@
 <h1>{{greeting}}</h1>
-<button class='btn btn-primary' ng-click="getRandomNumbers()">Get Random Numbers</button>
+<button class='btn btn-primary' ng-click="genKeys()">Generate RSA Keys</button>
 <p ng-show="!halted && buttonClicked">Please wait while generating primes!</p>
 <p ng-show="halted && buttonClicked">Primes generated: {{p}} and {{q}}</p>
 <p ng-show="halted && buttonClicked">Public Key: n: {{n}}, e: {{e}}</p>
